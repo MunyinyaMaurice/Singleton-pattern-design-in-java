@@ -1,0 +1,1 @@
+we'll create a singleton builder to construct user objects with username and login credentials. The singleton pattern ensures that there is only one instance of the builder responsible for creating user objects.
