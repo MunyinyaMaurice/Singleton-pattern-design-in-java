@@ -14,12 +14,12 @@ public class Main {
     public static void main(String[] args) {
         User user1 = UserBuilder.getInstance()
                 .setUsername("Munyinya Shema")
-                .setPassword("The one")
+                .setPassword("Maurice")
                 .build();
 
         User user2 = UserBuilder.getInstance()
-                .setUsername("Maurice Shema")
-                .setPassword("Only")
+                .setUsername("Shyaka")
+                .setPassword("Patrick")
                 .build();
 
         System.out.println("User 1 - Username: " + user1.getUsername() + ", Password: " + user1.getPassword());

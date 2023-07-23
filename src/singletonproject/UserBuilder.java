@@ -16,9 +16,7 @@ public class UserBuilder {
     private String password;
 
     private UserBuilder() {
-        // Set default values for username and password
-//        username = "default_username";
-//        password = "default_password";
+
     }
 
     public static UserBuilder getInstance() {
